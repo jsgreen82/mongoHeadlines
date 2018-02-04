@@ -1,0 +1,13 @@
+.jumbotron {
+  color: #fff;
+  background-color: #434343;
+  text-align: center;
+  background-image: url("./img/papers.png");
+  background-repeat: no-repeat;
+  height: 300px;
+  border-top: 0px;
+}
+
+h1 {
+  border-top: 25px;
+}
