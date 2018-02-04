@@ -37,7 +37,7 @@ mongoose.connect("mongodb://localhost/mongoHeadlines", {
 
 //GET route for scraping the NYT website
 app.get("/scrape", function(req, res) {
-	axios.get("https://www.washingtonpost.com/").then(function(response) {
+	axios.get("http://www.nytimes.com/").then(function(response) {
 		var $ = cheerio.load(response.data);
 		// Grab every h2 within an article tag, and do the following:
 		$("article h2").each(function(i, element) {
