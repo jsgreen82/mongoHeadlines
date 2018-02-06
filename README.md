@@ -2,7 +2,7 @@
 
 ![alt text](public/css/img/screenshot.png "app screenshot")
 
-#Overview
+Overview
 An app that scrapes articles from the New York Times website and lets users save articles and leave comments on the latest news.
 
 #How It Works
